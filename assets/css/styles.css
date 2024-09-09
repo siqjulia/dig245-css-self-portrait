@@ -1,2 +1,46 @@
 
 /* css */
+
+div{ 
+    position: absolute; 
+}
+.hair {
+    background-color: brown;
+}
+
+.skin {
+    background-color: pink; 
+}
+
+
+.face {
+    width: 400px; 
+    height: 500px; 
+    left: 100px;
+    border-radius: 50%; 
+}
+
+.bang{ 
+    width: 150px;
+    height: 300px; 
+    border-radius: 50% 0% 0% 50%;
+    left: 50px; 
+    top: 13px; 
+    transform: rotate(44deg);
+    clip-path: ellipse(24% 50% at 100% 50%) 
+}
+
+.bang2{
+    left: 420px; 
+    top: 35px; 
+    transform: rotate(144deg);
+
+}
+
+
+.mouth{
+    color: red;
+    width: 20px
+    top: 200px; 
+
+}   
