@@ -46,27 +46,31 @@ div{
 
 .bang{ 
     z-index: 2; 
-    width: 250px;
+    width: 400px;
     height: 300px; 
     border-radius: 50% 0% 0% 50%;
-    left: -35px; 
-    top: -3px; 
-    transform: rotate(36deg);
+    left: -150px; 
+    top: -80px; 
+    transform: rotate(45deg);
     clip-path: ellipse(24% 50% at 100% 50%)
-   
 }
 
 .bang2{
-    left: 390px; 
-    top: 20px; 
-    transform: rotate(147deg);
+    z-index: 2; 
+    width: 400px;
+    height: 300px; 
+    border-radius: 50% 0% 0% 50%;
+    left: 326px; 
+    top: -85px; 
+    transform: rotate(134deg);
+    clip-path: ellipse(24% 50% at 100% 50%)
 
 }
 
 .longhair{
     width: 400px; 
     height: 750px; 
-    top: 83px;
+    top: 100px;
     left: 100px;
     border-radius: 100%; 
 }
