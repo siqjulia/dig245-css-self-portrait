@@ -16,8 +16,12 @@ div{
     background-color: rgb(218, 128, 124)
 }
 
-.eyewhite{
-    background-color: white;
+.lefteyewhite{
+    background-color: rgb(255, 255, 255);
+}
+
+.pupils{
+    background-color: #64471B;
 }
 
 .line{
@@ -81,8 +85,39 @@ div{
 }
 
 .eyewhiteL{
+    width: 200px;
+    height: 70px; 
+    left: 125px; 
+    top: 250px; 
+    z-index: 3;
+    clip-path: ellipse(23% 41% at 47% 50%);
+}
+
+.eyewhiteR{ 
+    width: 200px;
+    height: 67px; 
+    top: 250px;
+    left: 276px; 
+    clip-path: ellipse(23% 41% at 47% 50%);
+    z-index: 3;
+}
+
+.pupilL{
     width: 50px;
-    height: 400px; 
-    left: 100px; 
-    z-index: 2;
+    height: 39px;
+    left: 195px; 
+    top: 265px;
+    clip-path: ellipse(25% 48% at 50% 50%);
+    transform: rotate(90deg);
+    z-index: 4;
+}
+
+.pupilR{ 
+    width: 50px;
+    height: 39px;
+    left: 346px; 
+    top: 265px;
+    clip-path: ellipse(25% 48% at 50% 50%);
+    transform: rotate(90deg);
+    z-index: 4;
 }
