@@ -12,35 +12,49 @@ div{
     background-color: pink; 
 }
 
+.mouth {
+    background-color: red
+}
 
 .face {
     width: 400px; 
     height: 500px; 
     left: 100px;
     border-radius: 50%; 
+    z-index: 1
 }
 
 .bang{ 
-    width: 150px;
+    z-index: 2; 
+    width: 250px;
     height: 300px; 
     border-radius: 50% 0% 0% 50%;
-    left: 50px; 
-    top: 13px; 
-    transform: rotate(44deg);
-    clip-path: ellipse(24% 50% at 100% 50%) 
+    left: -35px; 
+    top: -3px; 
+    transform: rotate(36deg);
+    clip-path: ellipse(24% 50% at 100% 50%)
+   
 }
 
 .bang2{
-    left: 420px; 
-    top: 35px; 
-    transform: rotate(144deg);
+    left: 390px; 
+    top: 20px; 
+    transform: rotate(147deg);
 
 }
 
+.longhair{
+    width: 400px; 
+    height: 750px; 
+    top: 83px;
+    left: 100px;
+    border-radius: 100%; 
+}
 
-.mouth{
-    color: red;
-    width: 20px
+
+.lips{
+    width: 100px
+    height: 200px;
+    left: -10px
     top: 200px; 
-
 }   
