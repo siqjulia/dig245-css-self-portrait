@@ -32,6 +32,10 @@ div{
     background-color: #E4AE95;
 }
 
+.eyebrows{
+    background-color: rgb(241, 79, 20);
+}
+
 .face {
     width: 400px; 
     height: 475px; 
@@ -69,19 +73,20 @@ div{
 
 
 .lips{
+    top: 460px;
+    left: 197px;
+    transform: translate(-50%, -50%);
+    height: 80px;
     width: 200px;
-    height: 85px;
-    left: 200px;
-    top: 450px;
-    border-radius: 160px 160px 20px 20px; 
-    z-index: 3;
+    border-radius: 150px 150px 0 0;
     transform: rotate(180deg);
+    z-index: 3; 
 }   
 
 .line{
     width: 0px;
-    height: 175px;
-    left: 300px; 
+    height: 170px;
+    left: 298px; 
     top: 409px; 
     border: 1px solid rgb(239, 155, 146); 
     z-index: 3; 
@@ -133,4 +138,12 @@ div{
     left: 235px;
     top: 200px;
     z-index: 4;
+}
+
+.eyebrowL{ 
+    width: 136px;
+    height: 23px;
+    left: 300px;
+    clip-path: polygon(0 31%, 49% 30%, 96% 100%, 0% 100%);
+    z-index: 4; 
 }
