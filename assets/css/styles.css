@@ -33,7 +33,7 @@ div{
 }
 
 .eyebrows{
-    background-color: rgb(241, 79, 20);
+    background-color: rgb(59, 43, 37);
 }
 
 .face {
@@ -147,7 +147,17 @@ div{
 .eyebrowL{ 
     width: 136px;
     height: 23px;
-    left: 300px;
-    clip-path: polygon(0 31%, 49% 30%, 96% 100%, 0% 100%);
+    left: 330px;
+    top: 222px;
+    clip-path: polygon(0 31%, 41% 30%, 66% 100%, 0% 100%);
     z-index: 4; 
+}
+
+.eyebrowR{
+    width: 136px;
+    height: 23px;
+    left: 120px; 
+    top: 222px;
+    clip-path: polygon(100% 30%, 56% 30%, 38% 99%, 100% 100%);
+    z-index: 4;
 }
