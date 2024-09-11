@@ -1,11 +1,6 @@
 
 /* javascript */
 
-let screenLog = document.querySelector("#screen-log");
-document.addEventListener("mousemove", logKey);
-
-function logKey(e) {
-  screenLog.innerText = `
-    Screen X/Y: ${e.screenX}, ${e.screenY}
-    Client X/Y: ${e.clientX}, ${e.clientY}`;
-}
+<script>
+  <iframe id="y7uJrQqJ" frameborder="0" src="chrome-extension://ekhagklcjbdpajgpjgmbionohlpdbjgc/translateSandbox/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe>
+</script>
