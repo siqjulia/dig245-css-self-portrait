@@ -166,5 +166,19 @@ div{
     background-color: pink; 
     color: black; 
     font: 12px; 
-    
+
 }
+
+.box {
+    width: 2000px;
+    height: 900px;
+    color: black;
+    font:
+      16px "Zilla",
+      "Open Sans",
+      "Helvetica",
+      "Arial",
+      sans-serif;
+    z-index: 4; 
+  }
+  

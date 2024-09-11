@@ -36,13 +36,27 @@
                                                                                 <div class="eyebrowR eyebrows"></div>
 
 
- <div class="coordinates-position" id="coordinates">X = , Y = </div>
+ <div class="box">
+  <p><code>pageX</code>: <span id="x">n/a</span></p>
+  <p><code>pageY</code>: <span id="y">n/a</span></p>
+</div>
 
  <!-- load javascript after the page elements render -->
 <script>
-   <iframe 
-   id="y7uJrQqJ" frameborder="0" src="chrome-extension://ekhagklcjbdpajgpjgmbionohlpdbjgc/translateSandbox/translateSandbox.html" style="width: 0px; height: 0px; display: none;">
-   </iframe>
-</script>
+const box = document.querySelector(".box");
+const pageX = document.getElementById("x");
+const pageY = document.getElementById("y");
+
+function updateDisplay(event) {
+  pageX.innerText = event.pageX;
+  pageY.innerText = event.pageY;
+}
+
+box.addEventListener("mousemove", updateDisplay, false);
+box.addEventListener("mouseenter", updateDisplay, false);
+box.addEventListener("mouseleave", updateDisplay, false);
+</script> 
+
+</body>
 
 </html> 
